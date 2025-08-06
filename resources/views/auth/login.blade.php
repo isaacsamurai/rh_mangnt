@@ -1,4 +1,4 @@
-    <x-layout-app page-title="Home">
+<x-layout-guest page-title="Login">
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-4">
@@ -32,7 +32,7 @@
                             </div>
 
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#">Esqueceu a sua senha?</a>
+                                <a href="{{ route('password.request') }}">Esqueceu a sua senha?</a>
                                 <button type="submit" class="btn btn-primary px-4">Entrar</button>
                             </div>
 
@@ -44,4 +44,4 @@
             </div>
         </div>
 
-    </x-layout-app>
+</x-layout-guest>
